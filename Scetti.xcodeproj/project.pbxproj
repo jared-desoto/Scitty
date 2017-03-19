@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F1483851E7F43AB00E9B645 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1483841E7F43AB00E9B645 /* AppDelegate.swift */; };
+		6F1483871E7F43AB00E9B645 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1483861E7F43AB00E9B645 /* ViewController.swift */; };
+		6F14838A1E7F43AC00E9B645 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F1483881E7F43AC00E9B645 /* Main.storyboard */; };
+		6F14838C1E7F43AC00E9B645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F14838B1E7F43AC00E9B645 /* Assets.xcassets */; };
+		6F14838F1E7F43AC00E9B645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F14838D1E7F43AC00E9B645 /* LaunchScreen.storyboard */; };
+		6F14839A1E7F43AC00E9B645 /* ScettiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1483991E7F43AC00E9B645 /* ScettiTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F1483961E7F43AC00E9B645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F1483791E7F43AB00E9B645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F1483801E7F43AB00E9B645;
+			remoteInfo = Scetti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F1483811E7F43AB00E9B645 /* Scetti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scetti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1483841E7F43AB00E9B645 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F1483861E7F43AB00E9B645 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F1483891E7F43AC00E9B645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F14838B1E7F43AC00E9B645 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F14838E1E7F43AC00E9B645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F1483901E7F43AC00E9B645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F1483951E7F43AC00E9B645 /* ScettiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScettiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1483991E7F43AC00E9B645 /* ScettiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScettiTests.swift; sourceTree = "<group>"; };
+		6F14839B1E7F43AC00E9B645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F14837E1E7F43AB00E9B645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F1483921E7F43AC00E9B645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F1483781E7F43AB00E9B645 = {
+			isa = PBXGroup;
+			children = (
+				6F1483831E7F43AB00E9B645 /* Scetti */,
+				6F1483981E7F43AC00E9B645 /* ScettiTests */,
+				6F1483821E7F43AB00E9B645 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F1483821E7F43AB00E9B645 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F1483811E7F43AB00E9B645 /* Scetti.app */,
+				6F1483951E7F43AC00E9B645 /* ScettiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F1483831E7F43AB00E9B645 /* Scetti */ = {
+			isa = PBXGroup;
+			children = (
+				6F1483841E7F43AB00E9B645 /* AppDelegate.swift */,
+				6F1483861E7F43AB00E9B645 /* ViewController.swift */,
+				6F1483881E7F43AC00E9B645 /* Main.storyboard */,
+				6F14838B1E7F43AC00E9B645 /* Assets.xcassets */,
+				6F14838D1E7F43AC00E9B645 /* LaunchScreen.storyboard */,
+				6F1483901E7F43AC00E9B645 /* Info.plist */,
+			);
+			path = Scetti;
+			sourceTree = "<group>";
+		};
+		6F1483981E7F43AC00E9B645 /* ScettiTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F1483991E7F43AC00E9B645 /* ScettiTests.swift */,
+				6F14839B1E7F43AC00E9B645 /* Info.plist */,
+			);
+			path = ScettiTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F1483801E7F43AB00E9B645 /* Scetti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F14839E1E7F43AC00E9B645 /* Build configuration list for PBXNativeTarget "Scetti" */;
+			buildPhases = (
+				6F14837D1E7F43AB00E9B645 /* Sources */,
+				6F14837E1E7F43AB00E9B645 /* Frameworks */,
+				6F14837F1E7F43AB00E9B645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scetti;
+			productName = Scetti;
+			productReference = 6F1483811E7F43AB00E9B645 /* Scetti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F1483941E7F43AC00E9B645 /* ScettiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F1483A11E7F43AC00E9B645 /* Build configuration list for PBXNativeTarget "ScettiTests" */;
+			buildPhases = (
+				6F1483911E7F43AC00E9B645 /* Sources */,
+				6F1483921E7F43AC00E9B645 /* Frameworks */,
+				6F1483931E7F43AC00E9B645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F1483971E7F43AC00E9B645 /* PBXTargetDependency */,
+			);
+			name = ScettiTests;
+			productName = ScettiTests;
+			productReference = 6F1483951E7F43AC00E9B645 /* ScettiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F1483791E7F43AB00E9B645 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jared DeSoto";
+				TargetAttributes = {
+					6F1483801E7F43AB00E9B645 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					6F1483941E7F43AC00E9B645 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6F1483801E7F43AB00E9B645;
+					};
+				};
+			};
+			buildConfigurationList = 6F14837C1E7F43AB00E9B645 /* Build configuration list for PBXProject "Scetti" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F1483781E7F43AB00E9B645;
+			productRefGroup = 6F1483821E7F43AB00E9B645 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F1483801E7F43AB00E9B645 /* Scetti */,
+				6F1483941E7F43AC00E9B645 /* ScettiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F14837F1E7F43AB00E9B645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F14838F1E7F43AC00E9B645 /* LaunchScreen.storyboard in Resources */,
+				6F14838C1E7F43AC00E9B645 /* Assets.xcassets in Resources */,
+				6F14838A1E7F43AC00E9B645 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F1483931E7F43AC00E9B645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F14837D1E7F43AB00E9B645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1483871E7F43AB00E9B645 /* ViewController.swift in Sources */,
+				6F1483851E7F43AB00E9B645 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F1483911E7F43AC00E9B645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F14839A1E7F43AC00E9B645 /* ScettiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F1483971E7F43AC00E9B645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F1483801E7F43AB00E9B645 /* Scetti */;
+			targetProxy = 6F1483961E7F43AC00E9B645 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F1483881E7F43AC00E9B645 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F1483891E7F43AC00E9B645 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F14838D1E7F43AC00E9B645 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F14838E1E7F43AC00E9B645 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F14839C1E7F43AC00E9B645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F14839D1E7F43AC00E9B645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F14839F1E7F43AC00E9B645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Scetti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JaredDeSoto.Scetti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6F1483A01E7F43AC00E9B645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Scetti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JaredDeSoto.Scetti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6F1483A21E7F43AC00E9B645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScettiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JaredDeSoto.ScettiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scetti.app/Scetti";
+			};
+			name = Debug;
+		};
+		6F1483A31E7F43AC00E9B645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScettiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JaredDeSoto.ScettiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scetti.app/Scetti";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F14837C1E7F43AB00E9B645 /* Build configuration list for PBXProject "Scetti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F14839C1E7F43AC00E9B645 /* Debug */,
+				6F14839D1E7F43AC00E9B645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F14839E1E7F43AC00E9B645 /* Build configuration list for PBXNativeTarget "Scetti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F14839F1E7F43AC00E9B645 /* Debug */,
+				6F1483A01E7F43AC00E9B645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F1483A11E7F43AC00E9B645 /* Build configuration list for PBXNativeTarget "ScettiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F1483A21E7F43AC00E9B645 /* Debug */,
+				6F1483A31E7F43AC00E9B645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F1483791E7F43AB00E9B645 /* Project object */;
+}
