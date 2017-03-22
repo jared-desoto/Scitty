@@ -23,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="9bP-45-SMY">
-                                <rect key="frame" x="16" y="48" width="343" height="97"/>
+                                <rect key="frame" x="16" y="48" width="343" height="96.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Sample Text:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G3s-HU-NWH">
                                         <rect key="frame" x="0.0" y="0.0" width="143.5" height="20.5"/>
@@ -40,6 +40,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VvK-hg-jRJ">
                                         <rect key="frame" x="0.0" y="66.5" width="77" height="30"/>
                                         <state key="normal" title="Set Default"/>
+                                        <connections>
+                                            <action selector="SetDefaultLabelTxtTest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Swg-BX-0kh"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -52,10 +55,14 @@
                             <constraint firstItem="9bP-45-SMY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="eej-eu-TgZ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="nameTextField" destination="eat-2r-Nvr" id="N4e-Gr-N6R"/>
+                        <outlet property="sampleTextLabel" destination="G3s-HU-NWH" id="2Uh-bM-Lwj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-79.200000000000003" y="138.98050974512745"/>
+            <point key="canvasLocation" x="-137" y="118"/>
         </scene>
     </scenes>
 </document>
